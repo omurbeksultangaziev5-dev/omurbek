@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heder {
+    background-color: #1264A6;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 96px;
+}
+
+.page{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.link{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+
+.container div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    width: 100%;
+    height: 700px;
+    background: url(/img/background.svg) no-repeat;
+    background-size: cover;
+}
+
+.block-right{
+    width: 50%;
+    height: 700px;
+    background:url(/img/shurp.svg) no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+.block-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.block-left h1{
+    font-size: 50px;
+
+}
+
+.block-left ul{
+    list-style: none;
+}
+
+.block-left button{
+    padding: 10px 20px;
+    background-color: #1264A6;
+    border: none;
+    color: white;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+}
+
+.catalog{
+    background-color: #1264A6;
+    padding-bottom: 60px;
+}
+
+.catalog h2 {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+#catalog {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.item {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+}
+
+
+.item div{
+    display: flex;
+    width: 100%;
+    gap: 5px;
+}
+
+.item button{ 
+    width: 100%;
+    padding: 10px;
+    background-color: #1264A6;
+    border: none;
+    color: white;
+}
+#modal{
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.497);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container{
+    background-color: #1264A6;
+    padding: 30px;
+    color: white;
+    position: relative;
+    
+}
+
+#close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+}
+
+
+.catalog h2 {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.company{
+    display: flex;
+   gap: 60px;
+}
+
+.comp-left{
+    display: flex;
+    align-items: center;
+    color: white;
+    
+}
+
+.form{
+    width: 100%;
+    height: 700px;
+    background: url(./img/form.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    color: white;
+}
+
+.form-container input {
+    padding: 20px;
+    border: none;
+    background: none;
+    outline: none;
+    border: 1px solid  #f8f8f8;
+    color: white;
+    background-color:#F8F8F833 ;
+}
+
+::placeholder {
+    color: white;
+}
+
+.form-container button {
+    padding: 20px;
+    border: none;
+    background-color: #1264A6;
+    color: white;
+}
+
+.contakty {
+    background-color: #1264A6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 700px;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.contakty button{
+    color: #1264A6;
+    padding: 20px;
+    
+}
+
+footer {
+    background-color: #1264A6;
+}
+
+.footer-button {
+     display: flex;
+     justify-content: space-between;
+     padding: 30px 0;
+}
+
